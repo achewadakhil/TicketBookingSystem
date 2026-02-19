@@ -35,40 +35,39 @@ Controller → Service → Repository → Database
 
 ## 📂 Project Structure
 
+```text
 com.ticketbooking.app
-
+│
 ├── controller
-│ ├── UserController
-│ ├── TrainController
-│ ├── BookingController
+│   ├── UserController.java
+│   ├── TrainController.java
+│   └── BookingController.java
 │
 ├── service
-│ ├── UserService
-│ ├── TrainService
-│ ├── BookingService
+│   ├── UserService.java
+│   ├── TrainService.java
+│   └── BookingService.java
 │
 ├── repository
-│ ├── UserRepository
-│ ├── TrainRepository
-│ ├── ScheduleRepository
-│ ├── BookingRepository
-│ ├── PassengerRepository
+│   ├── UserRepository.java
+│   ├── TrainRepository.java
+│   ├── ScheduleRepository.java
+│   ├── BookingRepository.java
+│   └── PassengerRepository.java
 │
 ├── model
-│ ├── User
-│ ├── Train
-│ ├── TrainSchedule
-│ ├── Booking
-│ ├── Passenger
+│   ├── User.java
+│   ├── Train.java
+│   ├── TrainSchedule.java
+│   ├── Booking.java
+│   └── Passenger.java
 │
 └── exceptions
-├── GlobalExceptionHandler
-├── ResourceNotFoundException
-├── SeatNotAvailableException
+    ├── GlobalExceptionHandler.java
+    ├── ResourceNotFoundException.java
+    └── SeatNotAvailableException.java
+```
 
-
-
----
 
 # 🧠 System Architecture
 
